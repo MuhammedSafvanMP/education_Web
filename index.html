@@ -167,7 +167,7 @@
                 </div>
             </div>
             <div class="courses">
-                <img src="./src/img/datas.webp" alt="">
+                <img src="./src/img/datascience.webp" alt="">
                 <div class="details">
                     <span>Updated 4/8/23</span>
                     <h6>Data Science & Machine Learning Course</h6>
@@ -225,5 +225,50 @@
 
     <!-- ========== End Course section ========== -->
 
+    <!-- ========== Start Registration section ========== -->
+    
+    <section id="registration">
+       
+    
+   
+        <div class="reminder">
+            <p>Get 100 Online Courses for Free</p>
+            <h1>Register To Get It</h1>
+            <div class="time">
+                <div class="date" id="days">
+                    00 <br> Days
+                </div>
+                <div class="date" id="hours">
+                    00 <br> Hours
+                </div>
+                <div class="date" id="minutes">
+                    00 <br> Minutes
+                </div>
+                <div class="date" id="seconds">
+                    00 <br> Seconds
+                </div>
+            </div>
+        </div>
+        <!--  Form submiting -->
+            <div class="form" onsubmit="return  submit()" >
+                <h3>Register Now!</h3>
+                <p id="message" class="message_checking">Your details is valid</p>
+                <input type="text"  placeholder="Name" name="name" id="name">
+                <input type="email" placeholder="Email Address" name="email" id="email">
+                <i class="fa-solid fa-eye-slash" onclick="show()"></i>
+                <input type="password" class="password" placeholder="Enter password" name="number" id="password"
+                
+                >
+                <input type="text" placeholder="Phone Number" name="number" id="phone">
+                <div class="btn">
+                    <button type="submit" onclick="submit()" class="black">Submit Form</button>
+                </div>
+            </div>
+    </section>
+
+    <!-- ========== End Registration section ========== -->
+
+
+    <script src="./src/js/app.js"></script>
 </body>
 </html>

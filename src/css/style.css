@@ -228,3 +228,97 @@ html{
 }
 
 /***** End Course section *****/
+
+/***** Registration section *****/
+
+#registration{
+    padding: 6vw 8vw 6vw 8vw;
+    background-image: linear-gradient(rgba(99,112,168,0.5), rgba(81,91,233,0.5)),
+    url('/src/img/datas.webp');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#registration .reminder{
+    color: #fff;
+}
+#registration .reminder h1{
+    color: #fff;
+}
+#registration .reminder .time{
+    display: flex;
+    margin-top: 40px;
+}
+#registration .reminder .time .date{
+    text-align: center;
+    padding: 13px 33px;
+    background-color: rgba(255, 225,225,0.25);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) ;
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    border: 1px solid rgba(225, 225,225, 0.18);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+        /* Registration form */
+
+.message_checking{
+    display: none;
+    color: red;
+    padding: 10px;
+    font-size: large;
+}
+#registration .form{
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    position: relative;
+}
+#registration .form input{
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(84, 40, 241);
+    outline: none;
+    
+}
+#registration .form .btn{
+    margin-top: 20px;
+}
+#registration .form input ::placeholder{
+    color: #413c3c;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.fa-solid{
+    position: absolute;
+    right: 50px;
+    bottom: 43%;    
+}
+#registration .form .black{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: #fdc93b;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#registration .form .black:hover{
+    color: rgb(21, 21, 100);
+    background: #fff;
+}
+
+/***** End Registration section *****/
