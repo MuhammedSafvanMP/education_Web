@@ -111,6 +111,7 @@ html{
     background-color: var(--bg-color);
     font-weight: 600px;
     border-radius: 5px;
+    margin-left: 5px;
 }
 #home a.blue{
     color: var(--bg-color);
@@ -147,6 +148,7 @@ html{
 #features .feat-box{
     background: #f9f9ff;
     text-align: start;
+    padding:  15px 0;
 }
 #features .feat-box i{
     font-size: 2.3rem;
@@ -165,3 +167,64 @@ html{
 }
 
 /***** End Company features section *****/
+
+/***** Course section *****/
+
+#course{
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+}
+.courses{
+    transition: 1s;
+}
+.courses:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+#course .course-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+#course .courses{
+    text-align: start;
+    background: #f9f9ff;
+    height: 100%;
+    position: relative;
+}
+#course span{
+    font-size: 17px;
+    font-weight: 600px;
+}
+#course h6{
+    font-size: 15px;
+    font-weight: 400px;
+}
+#course .courses img{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+#course .course .details{
+    padding: 15px 15px 0 15px ;
+}
+#course .courses .details i{
+    color: #fdc93b;
+    font-size: .9rem;
+}
+#course .courses .cost{
+    background: rgb(74, 74, 136);
+    color: #fff;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+}
+
+/***** End Course section *****/
