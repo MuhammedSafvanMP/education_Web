@@ -186,6 +186,7 @@ html{
     grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
     grid-gap: 1rem;
     margin-top: 50px;
+    cursor: pointer;
 }
 #course .courses{
     text-align: start;
@@ -388,3 +389,87 @@ html{
 
 
 /***** End Expert section *****/
+
+/***** Footer section *****/
+
+footer{
+    padding: 8vw;
+    background-color: #101c32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer .footer-col{
+    padding-bottom: 40px;
+}
+footer h3{
+    color: rgb(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+footer li{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+footer li:hover{
+    color: rgb(241, 240, 245);
+}
+footer p{
+    color: #7b838a;
+}
+footer .subscribe{
+    margin-top: 20px;
+}
+footer input{
+    width: 220px;
+    padding: 15px 12px;
+    background: #334f6c;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: #fff;
+    font-weight: 600;
+}
+footer .subscribe a.yellow{
+    color: #2c2c2c;
+    background: #fdc93b;
+    transition: 0.3s ease;
+}
+footer .subscribe a.yellow:hover{
+    color: rgb(21, 21, 100);
+    background: #fff;
+}
+footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+footer .copyright p{
+    color: #fff;
+}
+footer .copyright .pro-links i{
+    background-color: #5f7185;
+    color: #fff;
+}
+footer .copyright .pro-links i:hover{
+    background-color: #24ca3d; 
+    color: #2c2c2c;  
+    cursor: pointer;
+}
+
+
+
+/***** End Footer section *****/
