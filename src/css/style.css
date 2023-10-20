@@ -523,3 +523,23 @@ footer .copyright .pro-links i:hover{
     }
    
 }
+
+    /* Tablet and landscape mobile styles */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .registration{
+        gap: 8px;
+    }
+    .courses:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+    #experts .expert-box {
+        gap: 8px;
+    }
+    #experts .expert-box .profile {
+        width: 300px; 
+        height: 350px; 
+    }
+}
