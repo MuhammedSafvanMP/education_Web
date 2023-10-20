@@ -59,4 +59,3 @@ var x = setInterval(function () {
         password.type = "password";
       }
     }
-    
